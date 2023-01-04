@@ -1,0 +1,35 @@
+// utils
+@import"./utils/variables";
+@import"./utils/fonts";
+@import"./utils/visually-hidden";
+@import"./utils/placeholders";
+
+// base
+@import"./base/common";
+@import"./base/reset";
+
+@import"./base/modern-nomalize";
+@import"./base/container";
+
+// components
+@import"./components/logo";
+@import"./components/menu";
+@import"./components/contacts";
+@import"./components/teamsocial";
+@import"./components/address-footer";
+@import"./components/footer-social";
+@import"./components/subscription";
+@import"./components/modal-form";
+@import"./components/filter";
+@import"./components/projects";
+
+
+// layuots
+@import"./layuots/heder";
+@import"./layuots/hero";
+@import"./layuots/features";
+@import"./layuots/services";
+@import"./layuots/team";
+@import"./layuots/clients";
+@import"./layuots/footer";
+@import"./layuots/portfolio";
