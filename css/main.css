@@ -400,6 +400,9 @@ summary {
   background-color: transparent;
   cursor: pointer;
 }
+.menu-toggle:hover, .menu-toggle:focus {
+  color: #2196f3;
+}
 .menu-toggle__icon {
   fill: currentColor;
 }

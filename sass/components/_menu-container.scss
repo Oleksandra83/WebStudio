@@ -11,6 +11,11 @@
 	background-color: transparent;
 	cursor: pointer;
 
+	&:hover,
+	&:focus {
+	color: $accent-color;
+	}
+
 	&__icon {
 		fill: currentColor;
 
