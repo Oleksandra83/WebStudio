@@ -1,4 +1,7 @@
 .services {
+	@media screen and (max-width: 1199px) {
+		display: none;
+	}
 	padding-top: 0;
 	padding-bottom: 94px;
 }
@@ -16,9 +19,9 @@
 }
 
 .services__list {
+	@extend %list;
 	display: flex;
-	list-style: none;
-
+	
 	color: $title-text-color;
 }
 
